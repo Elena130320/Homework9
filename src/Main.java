@@ -11,6 +11,7 @@ public class Main {
         System.out.println(getStudentsFromCourse(students, randomCourse));
     }
 
+
     public static List<Course> getUnicsCourses(List<Student> students) {
         return students.stream()
                 .flatMap(student -> student.getAllCourses().stream())

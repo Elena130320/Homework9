@@ -31,6 +31,7 @@ public class Student {
         return Objects.hash(name, courses);
     }
 
+
     @Override
     public String toString() {
         return this.name;

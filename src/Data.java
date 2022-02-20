@@ -12,6 +12,7 @@ public class Data {
         Course course5 = new Course("Филология");
 
 
+
         Student student1 = new Student("Студент_1", Arrays.asList(course1, course2, course5));
         Student student2 = new Student("Студент_2", Arrays.asList(course1, course2, course3));
         Student student3 = new Student("Студент_3", Arrays.asList(course1, course4));

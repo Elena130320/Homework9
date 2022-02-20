@@ -24,6 +24,7 @@ public class Course {
         return Objects.hash(name);
     }
 
+
     @Override
     public String toString() {
         return this.name;
